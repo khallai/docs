@@ -41,8 +41,9 @@ wide variety of JVM-based applications, for example [Kafka](http://kafka.apache.
    * [IoTDB exporter](https://github.com/fagnercarvalho/prometheus-iotdb-exporter)
    * [KDB+ exporter](https://github.com/KxSystems/prometheus-kdb-exporter)
    * [Memcached exporter](https://github.com/prometheus/memcached_exporter) (**official**)
-   * [MongoDB exporter](https://github.com/dcu/mongodb_exporter)
+   * [MongoDB exporter](https://github.com/percona/mongodb_exporter)
    * [MongoDB query exporter](https://github.com/raffis/mongodb-query-exporter)
+   * [MongoDB Node.js Driver exporter](https://github.com/christiangalsterer/mongodb-driver-prometheus-exporter)
    * [MSSQL server exporter](https://github.com/awaragi/prometheus-mssql-exporter)
    * [MySQL router exporter](https://github.com/rluisr/mysqlrouter_exporter)
    * [MySQL server exporter](https://github.com/prometheus/mysqld_exporter) (**official**)
@@ -160,6 +161,11 @@ wide variety of JVM-based applications, for example [Kafka](http://kafka.apache.
    * [Google's mtail log data extractor](https://github.com/google/mtail)
    * [Grok exporter](https://github.com/fstab/grok_exporter)
 
+### FinOps
+   * [AWS Cost Exporter](https://github.com/opensourceelectrolux/aws-cost-exporter)
+   * [Azure Cost Exporter](https://github.com/opensourceelectrolux/azure-cost-exporter)
+   * [Kubernetes Cost Exporter](https://github.com/opensourceelectrolux/kubernetes-cost-exporter)
+
 ### Other monitoring systems
    * [Akamai Cloudmonitor exporter](https://github.com/ExpressenAB/cloudmonitor_exporter)
    * [Alibaba Cloudmonitor exporter](https://github.com/aylei/aliyun-exporter)
@@ -174,6 +180,7 @@ wide variety of JVM-based applications, for example [Kafka](http://kafka.apache.
    * [Huawei Cloudeye exporter](https://github.com/huaweicloud/cloudeye-exporter)
    * [InfluxDB exporter](https://github.com/prometheus/influxdb_exporter) (**official**)
    * [ITM exporter](https://github.com/rafal-szypulka/itm_exporter)
+   * [Java GC exporter](https://github.com/loyispa/jgc_exporter)
    * [JavaMelody exporter](https://github.com/fschlag/javamelody-prometheus-exporter)
    * [JMX exporter](https://github.com/prometheus/jmx_exporter) (**official**)
    * [Munin exporter](https://github.com/pvdh/munin_exporter)
@@ -191,6 +198,7 @@ wide variety of JVM-based applications, for example [Kafka](http://kafka.apache.
    * [StatsD exporter](https://github.com/prometheus/statsd_exporter) (**official**)
    * [TencentCloud monitor exporter](https://github.com/tencentyun/tencentcloud-exporter)
    * [ThousandEyes exporter](https://github.com/sapcc/1000eyes_exporter)
+   * [StatusPage exporter](https://github.com/sergeyshevch/statuspage-exporter)
 
 ### Miscellaneous
    * [ACT Fibernet Exporter](https://git.captnemo.in/nemo/prometheus-act-exporter)
@@ -261,7 +269,7 @@ possible.
 Some third-party software exposes metrics in the Prometheus format, so no
 separate exporters are needed:
 
-   * [Ansible Tower (AWX)](https://docs.ansible.com/ansible-tower/latest/html/administration/metrics.html)
+   * [Ansible Automation Platform Automation Controller (AWX)](https://docs.ansible.com/automation-controller/latest/html/administration/metrics.html)
    * [App Connect Enterprise](https://github.com/ot4i/ace-docker)
    * [Ballerina](https://ballerina.io/)
    * [BFE](https://github.com/baidu/bfe)
@@ -284,6 +292,7 @@ separate exporters are needed:
    * [JavaMelody](https://github.com/javamelody/javamelody/wiki/UserGuideAdvanced#exposing-metrics-to-prometheus)
    * [Kong](https://github.com/Kong/kong-plugin-prometheus)
    * [Kubernetes](https://github.com/kubernetes/kubernetes) (**direct**)
+   * [LavinMQ](https://lavinmq.com/)
    * [Linkerd](https://github.com/BuoyantIO/linkerd)
    * [mgmt](https://github.com/purpleidea/mgmt/blob/master/docs/prometheus.md)
    * [MidoNet](https://github.com/midonet/midonet)
